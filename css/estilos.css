@@ -2,14 +2,14 @@ h1{
 	color: red;
 	text-align: center;
 	font size: 14pt;
-	font-family: fantasy;	
+	font-family: cursive;	
 }
 
 h2{
 	color: green;
 	text-align: center;
 	font-size: 16pt;
-	font-family: fantasy;
+	font-family: Times New Roman, Times, serif;
 }
 body { background-image: url("/hoja/imagenes/pol.jpeg");
 height: 90vh;
@@ -19,5 +19,5 @@ background-size: cover;}
 p{
 	color: white;
 	font-size: 20pt;
-	font-family: Optima;
+	font-family: cursive;
 }
