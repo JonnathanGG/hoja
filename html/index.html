@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Seguridad</title>
+<link rel="stylesheet" type="text/css" href="\hoja\css\estilos.css">
+<script>
+function comprobarClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+     
+
+    if (clave1 == "Jonnathan" && clave2 == "Ixen"){
+       alert("Los Datos Coinciden...\n Bienvenido");
+        var href =  "/hoja/html/principal.html";
+        window.location=href;
+         }
+       
+    else{
+       alert("Error...\nIntentelo nuevamente.");
+        var href =  "/hoja/html/alerta.html";
+        window.location=href;
+    };
+       
+}  
+</script>
+</head>
+<body>
+<center>
+   <img src="\hoja\imagenes\dan.gif" height="100" align="100"><video width="320" height="200" loop muted autoplay="autoplay">
+      <source src="\hoja\imagenes\papa.mp4" type="video/mp4">
+   </video><img src="\hoja\imagenes\dan.gif" height="100" align="100"></center>
+   <br>
+<center><audio src="\hoja\imagenes\gir.mp3" autoplay controls autoplay>
+  Your browser does not support the <code>audio</code> element.
+</audio></center>
+   <br>
+<h1>Iniciar Sesion</h1>
+<br>
+<form action="" name="f1">
+<center>
+<input class="col-form-label"  id="floatingInput" placeholder="User" name="clave1" size="30">
+<br><br>
+<input type="password" class="col-form-label" placeholder="Password" name="clave2" size="30">
+<br><br>
+<input type="button" value="Ingresar"type="submit" class="btn btn-warning" onClick="comprobarClave()">
+<br>
+</body>
+</body>
+</html>
